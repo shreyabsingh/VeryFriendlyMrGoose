@@ -28,6 +28,9 @@ forever(function () {
     }
 })
 forever(function () {
+	
+})
+forever(function () {
     light.setAll(0xff0000)
     hits = 5
     if (hits) {
