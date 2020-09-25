@@ -26,3 +26,10 @@ forever(function () {
         )
     }
 })
+forever(function () {
+    if (true) {
+        music.wawawawaa.play()
+    } else {
+    	
+    }
+})
