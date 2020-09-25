@@ -2,7 +2,7 @@ input.buttonA.onEvent(ButtonEvent.Click, function () {
 	
 })
 input.buttonB.onEvent(ButtonEvent.Click, function () {
-	
+    keyboard.key("", KeyboardKeyEvent.Up)
 })
 forever(function () {
     if (input.rotation(Rotation.Pitch) > 8) {
